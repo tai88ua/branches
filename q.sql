@@ -8,5 +8,5 @@ CREATE TABLE branches (
                          `parent_id` INT,
                          `name` VARCHAR(255),
                          PRIMARY KEY (id),
-                         INDEX `name_indx` (`name`)
+                         INDEX `parent_indx` (`parent_id`)
 );
